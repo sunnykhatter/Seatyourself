@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  neighbourhood: MyString
+  price_range: MyString
+  summary: MyString
+  menu: MyString
+  timeslots: MyString
+
+two:
+  title: MyString
+  neighbourhood: MyString
+  price_range: MyString
+  summary: MyString
+  menu: MyString
+  timeslots: MyString

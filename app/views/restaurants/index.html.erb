@@ -1,0 +1,33 @@
+
+
+<div class= "name">
+
+ <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Restuarant Name</th>
+                  <th> Timings</th>
+                  <th>Location</th>
+                  <th>Summary</th>
+                </tr>
+              </thead>
+              <tbody>
+              	<% @restaurants.each do |restaurant| %>
+                <tr>
+                  <td><%= restaurant.id %></td>
+                  <td><%= restaurant.title %></td>
+                  <td><%= restaurant.timeslots %></td>
+                  <td><%= restaurant.location %></td>
+                   <td><%= restaurant.summary %></td>
+                </tr>
+                <% end %>
+              </tbody>
+            </table>
+
+
+
+
+
+
+</div

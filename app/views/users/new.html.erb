@@ -1,0 +1,13 @@
+<%= form_for @user do |user| %>
+
+  <%= user.label :first_name %>
+  <%= user.text_field :first_name %><br />
+
+    <%= user.label :last_name %>
+  <%= user.text_field :last_name %><br />
+
+   <%= user.label :email %>
+  <%= user.text_field :email %><br />
+  
+  <%= user.submit "Sign Up!", class: "btn btn-large btn-primary" %>
+<% end %>
